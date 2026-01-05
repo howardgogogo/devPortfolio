@@ -102,7 +102,7 @@ export const siteConfig = {
             ],
         },
         {
-            company: "Shenzhen IOT sensor technology Co., Ltd.",
+            company: "China Security & Fire IoT Sensing Co., Ltd,",
             title: "oversea sales",
             dateRange: "Sep 2014 - Dec 2017",
             bullets: [
