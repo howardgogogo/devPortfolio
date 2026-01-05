@@ -101,6 +101,16 @@ export const siteConfig = {
                 " Cross-browser compatibility and user experience optimization",
             ],
         },
+        {
+            company: "Shenzhen IOT sensor technology Co., Ltd.",
+            title: "oversea sales",
+            dateRange: "Sep 2014 - Dec 2017",
+            bullets: [
+                "Formulating sales strategies for security alarm products, engaging in business negotiations with overseas clients",
+                "Participated in industry-related exhibitions to develop new clients",
+                "Maintained close communication with clients, provided proactive after-sales support",
+            ],
+        },
     ],
     education: [
         {
