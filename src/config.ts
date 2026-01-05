@@ -25,7 +25,13 @@ export const siteConfig = {
             name: "gocart",
             description: "a Multi-Vendor E-commerce website using Next Js",
             link: "https://gocart-omega-dun.vercel.app",
-            skills: ["Next.js", "Tailwind css", "React"],
+            skills: [
+                "Next.js",
+                "Tailwind css",
+                "React",
+                "Prisma",
+                "Neon postgresql db",
+            ],
         },
         {
             name: "react-movie-app",
@@ -38,7 +44,13 @@ export const siteConfig = {
             name: "subscription-tracker",
             description: "a production-ready Subscription Management System",
             link: "https://github.com/howardgogogo/subscription-tracker",
-            skills: ["Node.js", "Mongoose", "Mongodb Atlas", "JWT", "Express"],
+            skills: [
+                "Node.js",
+                "Mongoose",
+                "Mongodb Atlas db",
+                "JWT",
+                "Express",
+            ],
         },
     ],
     experience: [
