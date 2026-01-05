@@ -1,0 +1,87 @@
+## Built With
+
+-   **[Astro](https://astro.build/)** - Static site generator for modern web apps
+-   **[Tailwind CSS v4](https://tailwindcss.com/)** - Utility-first CSS framework
+-   **[Tabler Icons](https://tabler.io/icons)** - Free and open source icons
+-   **TypeScript** - For type-safe configuration
+
+## Updating the Template
+
+### Configuration
+
+The template is designed to be easily customizable through the `src/config.ts` file. This single file controls:
+
+-   **Personal Information**: Name, title, description
+-   **Accent Color**: Primary color theme (changing this will change the accent color site wide)
+-   **Social Links**: Email, LinkedIn, Twitter, GitHub (all optional)
+-   **About Section**: Personal bio/description
+-   **Skills**: List of technical skills
+-   **Projects**: Project showcase with descriptions and links
+-   **Experience**: Work history with bullet points
+-   **Education**: Educational background and achievements
+
+If skills, projects, experience, or education are removed from the config, those sections will be hidden entirely.
+
+### Icons
+
+The template uses [Tabler Icons](https://tabler.io/icons) for all icons. If you wish to add more icons and have it look consistent with what's already there, you can browse through their extensive icon library.
+
+## Project Structure
+
+```
+devportfolio/
+├── public/
+│   └── favicon.svg          # Site favicon
+├── src/
+│   ├── components/          # Astro components
+│   │   ├── About.astro      # About section
+│   │   ├── Education.astro  # Education section
+│   │   ├── Experience.astro # Work experience section
+│   │   ├── Footer.astro     # Site footer
+│   │   ├── Header.astro     # Navigation header
+│   │   ├── Hero.astro       # Hero/intro section
+│   │   └── Projects.astro   # Projects showcase
+│   ├── pages/
+│   │   └── index.astro      # Main page layout
+│   ├── styles/
+│   │   └── global.css       # Global styles
+│   └── config.ts            # Site configuration
+├── astro.config.mjs         # Astro configuration
+├── package.json             # Project dependencies
+├── tailwind.config.js       # Tailwind configuration
+└── tsconfig.json            # TypeScript configuration
+```
+
+## Local Development
+
+If you'd like to run it locally:
+
+```
+npm install
+```
+
+After that, start up the Astro dev server with:
+
+```
+npm run dev
+```
+
+## Deployment
+
+The template can be deployed to any static hosting service easily (and in most cases, completely free). Here are some options:
+
+-   To deploy with Netlify, [click here](https://docs.astro.build/en/guides/deploy/netlify/).
+-   To deploy with Vercel, [click here](https://docs.astro.build/en/guides/deploy/vercel/).
+-   To deploy with GitHub Pages, [click here](https://docs.astro.build/en/guides/deploy/github/).
+-   To deploy with Cloudflare Pages, [click here](https://docs.astro.build/en/guides/deploy/cloudflare/).
+-   To deploy with Render, [click here](https://docs.astro.build/en/guides/deploy/render/).
+
+Want to deploy somewhere else? Find more guides [here](https://docs.astro.build/en/guides/deploy/).
+
+## Changelog
+
+To view the changelog, see CHANGELOG.md.
+
+## License
+
+This project is fully and completely MIT. See LICENSE.md.
