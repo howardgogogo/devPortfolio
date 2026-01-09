@@ -92,16 +92,6 @@ export const siteConfig = {
             ],
         },
         {
-            company: "Shangruan Information Ltd.",
-            title: "web developer",
-            dateRange: "Dec 2017 - Dec 2018",
-            bullets: [
-                " Interactive features using JavaScript/jQuery and third-party animation libraries",
-                "Responsive design using Bootstrap",
-                " Cross-browser compatibility and user experience optimization",
-            ],
-        },
-        {
             company: "China Security & Fire IoT Sensing Co., Ltd,",
             title: "oversea sales",
             dateRange: "Sep 2014 - Dec 2017",
