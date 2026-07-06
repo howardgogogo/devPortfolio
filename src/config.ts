@@ -22,6 +22,20 @@ export const siteConfig = {
     ],
     projects: [
         {
+            name: "ai_profile_platform",
+            description:
+                "It's basically a web dashboard for the Hermes Agent — a multi-platform AI chat system.",
+            link: "http://159.75.84.133:5173/",
+            skills: [
+                "React",
+                "Typescript",
+                "Tailwind css",
+                "Koa",
+                "Sqlite",
+                "Socket.io",
+            ],
+        },
+        {
             name: "gocart",
             description: "a Multi-Vendor E-commerce website using Next Js",
             link: "https://gocart-omega-dun.vercel.app",
