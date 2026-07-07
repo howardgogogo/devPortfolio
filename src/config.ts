@@ -76,6 +76,16 @@ export const siteConfig = {
     ],
     experience: [
         {
+            company: "ASDC",
+            title: "web developer",
+            dateRange: "Mar 2026 - Jul 2026",
+            bullets: [
+                "Use ai (Claude Code, OpenCode) to assist development ",
+                "Use React, tailwindcss, Koa to build frontend",
+                "Run docker image to deploy frontend code on server",
+            ],
+        },
+        {
             company: "iSoftStone",
             title: "web developer",
             dateRange: "Apr 2024 - Oct 2025",
